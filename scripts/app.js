@@ -15,6 +15,10 @@ angular
 				url: '/about',
 				templateUrl: 'templates/about.html'
 			})
+			.state('about.home', {
+				url: '/',
+				templateUrl: 'templates/about/home.html'
+			})
 			.state('about.beast', {
 				url: "/bloodborne",
                	templateUrl: 'templates/about/beast.html'
@@ -35,6 +39,10 @@ angular
 			.state('items', {
 				url: '/items',
 				templateUrl: 'templates/items.html'
+			})
+			.state('items.home', {
+				url: '/',
+				templateUrl: 'templates/items/home.html'
 			})
 			.state('items.weapons', {
 				url: '/weapons',
@@ -65,6 +73,10 @@ angular
 				url: '/gameplay',
 				templateUrl: 'templates/gameplay.html'
 			})
+			.state('gameplay.home', {
+				url: '/',
+				templateUrl: 'templates/gameplay/home.html'
+			})
 			.state('gameplay.mechanics', {
 				url: '/mechanics',
 				templateUrl: 'templates/gameplay/mechanics.html'
@@ -77,6 +89,10 @@ angular
 			.state('guides', {
 				url: '/guides',
 				templateUrl: 'templates/guides.html'
+			})
+			.state('guides.home', {
+				url: '/',
+				templateUrl: 'templates/guides/home.html'
 			})
 			.state('guides.beast', {
 				url: "/bloodborne",
